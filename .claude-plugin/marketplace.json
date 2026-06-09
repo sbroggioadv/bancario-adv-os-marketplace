@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "bancario-adv-os-marketplace",
+  "description": "Marketplace oficial do plugin Bancario Adv-OS — acoes bancarias na perspectiva do cliente do banco: fraudes, revisional, superendividamento, do extrajudicial ao STJ.",
+  "owner": {
+    "name": "IA Combativa Adv-OS"
+  },
+  "plugins": [
+    {
+      "name": "bancario-adv-os",
+      "source": "./bancario-adv-os",
+      "description": "Sistema operacional do advogado em acoes bancarias na perspectiva do cliente do banco. 35 skills: fraudes (golpe pix, falso funcionario, falso advogado, financiamento fraudulento), revisional (juros abusivos, anatocismo, tarifas, Price x SAC), superendividamento (Lei 14.181/2021), defesa em busca e apreensao e embargos, pericia contabil (previa + quesitos), camada extrajudicial (MED/Registrato/PROCON/ANPD) como fortalecimento probatorio, e recursos ate STJ/STF. Gate de varredura jurisprudencial antes de redigir + anti-halucinacao por design. Orquestrador bancario-master.",
+      "author": {
+        "name": "IA Combativa Adv-OS"
+      }
+    }
+  ]
+}

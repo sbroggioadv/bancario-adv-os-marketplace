@@ -1,0 +1,20 @@
+{
+  "descricao": "Cache local de referencia para a previa de abusividade (Pilar 2 — anti-halucinacao). Valores propositadamente null em v0.1.0: a skill previa-abusividade-revisional NAO inventa numero; quando o valor esta null, cai no fallback 'formula + link oficial' e instrui consulta ao SGS do BCB. v0.2.0 preenche o historico.",
+  "release_plugin": "v0.1.0",
+  "data_extracao": "2026-06-09",
+  "fontes_oficiais": {
+    "taxa_media_bcb": "https://www.bcb.gov.br/estatisticas/txjuros",
+    "selic": "https://www.bcb.gov.br/controleinflacao/taxaselic",
+    "ipca": "https://www.ibge.gov.br/explica/inflacao.php",
+    "taxa_legal_cc406": "Lei 14.905/2024 — Selic deduzido o IPCA (piso zero); consultar SGS/BCB"
+  },
+  "aviso": "Todo valor deve ser confirmado na fonte oficial antes de protocolar. Plugin standalone-first: nao consulta API em runtime.",
+  "indices": {
+    "taxa_media_bcb_credito_pessoal_nao_consignado_pf": { "frequencia": "mensal", "valores": null },
+    "taxa_media_bcb_aquisicao_veiculos_pf": { "frequencia": "mensal", "valores": null },
+    "taxa_media_bcb_cartao_credito_rotativo_pf": { "frequencia": "mensal", "valores": null },
+    "taxa_media_bcb_cheque_especial_pf": { "frequencia": "mensal", "valores": null },
+    "selic_mensal": { "frequencia": "mensal", "valores": null },
+    "ipca_mensal": { "frequencia": "mensal", "valores": null }
+  }
+}

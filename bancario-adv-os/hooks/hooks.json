@@ -1,0 +1,14 @@
+{
+  "SessionStart": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo '[bancario-adv-os] Plugin ativo. Comando: /bancario <frente>. 35 skills: fraudes (pix/falso funcionario/falso advogado/financiamento fraudulento), revisional (juros/tarifas/Price-SAC), superendividamento (Lei 14.181), defesa em busca e apreensao + embargos, pericia contabil, camada extrajudicial (MED/Registrato/PROCON), recursos ate STJ/STF. Gate: varredura jurisprudencial antes de redigir + anti-halucinacao. Orquestrador: bancario-master. Onboarding: /start-bancario.'",
+          "timeout": 5
+        }
+      ]
+    }
+  ]
+}

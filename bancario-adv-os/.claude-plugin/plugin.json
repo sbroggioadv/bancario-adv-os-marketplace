@@ -1,0 +1,8 @@
+{
+  "name": "bancario-adv-os",
+  "version": "0.1.0",
+  "description": "Sistema operacional do advogado em acoes bancarias na perspectiva do cliente do banco. 35 skills cobrindo fraudes bancarias (golpe pix, falso funcionario, falsa central, golpe do falso advogado, financiamento/emprestimo fraudulento), revisional bancaria (juros abusivos, anatocismo, tarifas, Price x SAC, comissao de permanencia), superendividamento (Lei 14.181/2021, repactuacao 104-A/B/C, minimo existencial), defesa em busca e apreensao e embargos a execucao, pericia contabil (previa de abusividade + quesitos ao perito), camada extrajudicial (MED/MED 2.0, Registrato, BACEN, PROCON, ANPD, B.O.) como fortalecimento probatorio, e recursos civeis ate STJ/STF. Gate de varredura jurisprudencial antes de redigir + anti-halucinacao por design (nenhuma citacao sem verificacao real). Orquestrador bancario-master.",
+  "author": {
+    "name": "IA Combativa Adv-OS"
+  }
+}
